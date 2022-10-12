@@ -1,0 +1,7 @@
+
+ [96m│[93m Username[96m:[93m [96m[[93m<<username>>[96m][93m
+ [96m│[93m Max Time[96m:[93m [96m[[93m<<maxtime>>[96m][93m
+ [96m│[93m Max Cons[96m:[93m [96m[[93m<<conns>>[96m][93m
+ [96m│[93m User Rank[96m:[93m [96m[[93m<<rank>>[96m][93m
+ [96m│[93m Plan Expiry[96m:[93m [96m[[93m<<daysleft>> days[96m][93m
+

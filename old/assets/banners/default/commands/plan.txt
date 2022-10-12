@@ -1,0 +1,7 @@
+
+[97mUsername[91m: [97m<<$user.username>>
+[97mAttack Time[91m: [97m<<$user.maxtime>>
+[97mConcurrents[91m: [97m<<$user.concurrents>>
+[97mUser Rank[91m: [97m<<$user.rank>>
+[97mPlan Expiry[91m: [97m<<$user.expiry.days>> days
+

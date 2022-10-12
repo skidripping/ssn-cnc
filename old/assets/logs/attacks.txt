@@ -1,0 +1,15 @@
+[23 Apr 22 20:33 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[23 Apr 22 20:34 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[23 Apr 22 20:37 BST] root launched a 30 second attack against 70.70.70.70 using udp on port 80
+[23 Apr 22 20:38 BST] root launched a 30 second attack against 70.70.70.70 using udp on port 80
+[23 Apr 22 20:39 BST] root launched a 20 second attack against 70.70.70.70 using udp on port 80
+[23 Apr 22 20:41 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[23 Apr 22 20:44 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[23 Apr 22 20:47 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 00:40 BST] root launched a 20 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 00:42 BST] root launched a 20 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 13:14 BST] root launched a 20 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 13:14 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 13:15 BST] root launched a 50 second attack against https://bangenergy.com/ using mixbypass on port 80
+[24 Apr 22 14:51 BST] root launched a 30 second attack against 70.70.70.70 using home on port 80
+[24 Apr 22 14:55 BST] root launched a 50 second attack against https://bangenergy.com/ using mixbypass on port 80

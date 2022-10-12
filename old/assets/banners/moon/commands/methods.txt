@@ -1,0 +1,22 @@
+<<clear>>
+
+ [96m│[97m ovh [96m([97mfor ovhs[96m)[97m
+ [96m│[97m fivem [96m([97mfor fivem servers[96m)[97m
+ [96m│[97m nfo [96m([97mfor nfos[96m)[97m
+ [96m│[97m killall [96m([97mmainly for ovhs[96m)[97m
+ [96m│[97m http [96m([97mfor layer 7[96m)[97m
+ [96m│[97m dvr [96m([97mfor games/homes[96m)[97m
+ [96m│[97m udp [96m([97mudp flood/udp rape[96m)[97m
+ [96m│[97m home [96m([97mfor homes[96m)[97m
+ [96m│[97m tcp [96m([97mtcp rape/tcp flood[96m)[97m
+ [96m│[97m hydra [96m([97mfor hydras[96m)[97m
+ [96m│[97m ssh [96m([97mfor nets/ovhs[96m)[97m
+ [96m│[97m 100up [96m([97mfor 100up ovhs[96m)[97m
+ [96m│[97m icmp [96m([97msimple icmp flood[96m)[97m
+ [96m│[97m dstat [96m([97mfor layer 7 dstats <30s limit>[96m)[97m
+ [96m│[97m game [96m([97mr6, fortnite, ark, apex, etc[96m)[97m
+ [96m│[97m hotspot [96m([97mfor 99% of hotspots[96m)[97m
+ [96m│[97m syn [96m([97mpink/red/multi syn[96m)[97m
+ [96m│[97m rail [96m([97mrail for homes/some games[96m)[97m
+
+

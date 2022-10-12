@@ -1,0 +1,8 @@
+[97mLink[91m:[97m https://cfx.re/join/<<cfxcode>>
+[97mIP[91m:[97m <<ip>>
+[97mPort[91m:[97m <<port>>
+[97mCountry[91m:[97m <<country>>
+[97mHosting[91m:[97m <<hosting>>
+[97mOrganization[91m:[97m <<org>>
+[97mOnline Players[91m:[97m <<currentplayers>>
+[97mMax Players[91m:[97m <<maxplayers>>

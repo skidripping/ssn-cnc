@@ -1,0 +1,9 @@
+[97mIP[91m: [97m<<ip>>
+[97mRegion[91m: [97m<<region>>
+[97mCountry[91m: [97m<<country>> [91m([97m<<continent>>[91m)
+[97mCity[91m: [97m<<city>>
+[97mZip[91m: [97m<<zip>>
+[97mISP[91m: [97m<<isp>>
+[97mAS[91m: [97m<<asn>>
+[97mOrg[91m: [97m<<org>>
+[97mTimeZone[91m: [97m<<timezone>>

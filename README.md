@@ -18,6 +18,13 @@ It has so many more features than most CNCs on the market, and it's 20$ only.
 
 DM him to purchase.
 
+-
+
+also, [Cupid](@CupidVX) owns a CNC by the name of Compact, This CNC has been also confirmed to be Fully Safe.
+
+It has some good features, you could consider it as Nosviak2 but Lightweight, it's also 15$ only.
+
+DM him to purchase.
 # Credits
 [raid](sock_stream.t.me) - GitHub Post\
 [pxzdano](pxzdano.t.me) - Cracking\

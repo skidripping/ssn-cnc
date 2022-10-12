@@ -1,0 +1,194 @@
+{
+    "webserver": {
+        "host": "YOUR SERVER IP GOES HERE",
+        "debug": true,
+        "enabled": true
+    },
+    "database": {
+        "host": "localhost:3306",
+        "username": "{DB_USERNAME}",
+        "password": "{DB_PASSWORD}",
+        "table": "{DB_TABLE}"
+    },
+    "webhooks": {
+        "telegram": {
+            "attack_sent": {
+                "token": "",
+                "title": "USER ATTACK SENT SUCCESSFULLY",
+                "chat_id": "",
+                "enabled": false
+            },
+            "blacklisted_host": {
+                "token": "",
+                "title": "USER TRIED ATTACKING BLACKLIST",
+                "chat_id": "",
+                "enabled": false
+            }
+        },
+        "discord": {
+            "attack_sent": {
+                "webhook": "",
+                "title": "USER ATTACK SENT SUCCESSFULLY",
+                "image": "https://static.vecteezy.com/system/resources/previews/001/200/261/original/check-png.png",
+                "hex_color": "",
+                "enabled": false
+            },
+            "blacklisted_host": {
+                "webhook": "",
+                "title": "USER TRIED ATTACKING BLACKLIST",
+                "image": "http://www.clipartbest.com/cliparts/RiA/ExB/RiAExBz9T.png",
+                "hex_color": "",
+                "enabled": false
+            }
+        }
+    },
+    "attack_settings": {
+        "blacklists": [
+            ".gov",
+            ".edu",
+            "curl",
+            ".ru",
+            "russia",
+            "wget",
+            "1.1.1.1",
+            ">",
+            "<",
+            "echo",
+            "insert",
+            "mysql",
+            "localhost"
+        ],
+        "attacks": {
+            "enabled": true,
+            "slots": {
+                "max": 10,
+                "enabled": true
+            },
+            "powersaving": {
+                "enabled": true
+            },
+            "spamcheck": {
+                "general": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                },
+                "target": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                }
+            }
+        }
+    },
+    "servers": [
+        {
+            "enabled": true,
+            "tag": "LAYER 4",
+            "config": {
+                "host": "8.8.8.8",
+                "port": 22,
+                "username": "username",
+                "password": "password"
+            }
+        },
+        {
+            "enabled": false,
+            "tag": "LAYER 7",
+            "config": {
+                "host": "1.1.1.1",
+                "port": 22,
+                "username": "username",
+                "password": "password"
+            }
+        }
+    ],
+    "botnets": [
+        {
+            "enabled": true,
+            "tag": "QBOT",
+            "config": {
+                "host": "8.8.8.8",
+                "port": 22,
+                "username": "username",
+                "password": "password"
+            }
+        },
+        {
+            "enabled": false,
+            "tag": "MIRAI",
+            "config": {
+                "host": "1.1.1.1",
+                "port": 22,
+                "username": "username",
+                "password": "password"
+            }
+        }
+    ],
+    "attacks": [
+        {
+            "name": "HOME",
+            "botnet": false,
+            "command": "screen -dmS {HOST} ./HOME {HOST} {PORT} {TIME}",
+            "config": {
+                "slots": {
+                    "max": 3,
+                    "enabled": true
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 86400,
+                        "enabled": true
+                    },
+                    "soft": {
+                        "time": 200,
+                        "enabled": false
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": true,
+                    "private": {
+                        "enabled": false,
+                        "users": [
+                            "root",
+                            "mypartner"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "HTTPS",
+            "botnet": true,
+            "command": ".HTTPS {HOST} 100 {TIME} -dport={PORT}",
+            "config": {
+                "slots": {
+                    "max": 3,
+                    "enabled": true
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 86400,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 200,
+                        "enabled": true
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": false,
+                    "private": {
+                        "enabled": true,
+                        "users": [
+                            "kingcobra",
+                            "johnthegoat"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -4,7 +4,7 @@ Well there you go ladies and gentlemen, heres the crack.
 Lets not forget to thank pxzdano for making this wonderful crack <3.
 
 # Tutorial
-## New & Funnel
+## New CNC & Funnel & Manager
 Well you need to compile `server.go` and i'll show you how:
 ```bash
 apt install golang
@@ -16,7 +16,7 @@ after you do so, you need to rewrite the license IP through iptables:
 iptables -t nat -A OUTPUT -p tcp -d 54.39.235.240 --dport 38372 -j DNAT --to-destination 127.0.0.1:80
 ```
 now you're done! enjoy!
-## Old
+## Old CNC
 Well you need to compile `server.go` and i'll show you how:
 ```bash
 apt install golang

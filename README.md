@@ -13,4 +13,3 @@ Funny right?, well enjoy, this is only the builds I'll upload the crack soon.
 [timeout](nightmarexiv.t.me) - New SSN CNC\
 [catto](synfloods.t.me) - Proving the Logging\
 [orbital](orbitalxz.t.me) - Old SSN CNC\
-[seized](seized1337.t.me) - License

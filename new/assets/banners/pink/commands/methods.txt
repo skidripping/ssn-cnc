@@ -1,0 +1,5 @@
+<<$clear>>[97mhome[95m....: [95m[[97mIP[95m]   [[97mPORT[95m] [[97mTIME[95m] {[97mL4[95m} ([97mNON-VIP[95m)
+[97mhttps[95m...: [95m[[97mLINK[95m] [[97mPORT[95m] [[97mTIME[95m] {[97mL4[95m} ([97mVIP-YES[95m)
+[95m[[97mHOW-TO?[95m][95m [95m[[97mMETHOD[95m] [[97mHOST[95m] [[97mPORT[95m] [[97mTIME[95m]
+[95m[[97mEXAMPLE[95m] [97mhome 74.74.74.129 80 30
+

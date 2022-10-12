@@ -1,0 +1,8 @@
+[97mLink[95m:[97m https://cfx.re/join/<<$cfx.code>>
+[97mIP[95m:[97m <<$cfx.ip>>
+[97mPort[95m:[97m <<$cfx.port>>
+[97mCountry[95m:[97m <<$cfx.country>>
+[97mHosting[95m:[97m <<$cfx.hosting>>
+[97mOrganization[95m:[97m <<$cfx.org>>
+[97mOnline Players[95m:[97m <<$cfx.players.current>>
+[97mMax Players[95m:[97m <<$cfx.players.max>>

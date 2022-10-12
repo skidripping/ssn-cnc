@@ -1,0 +1,290 @@
+{
+    "server_config": {
+        "ssh_addr": "YOUR SERVER IP HERE",
+        "private_key": "assets/sshKey.ppk"
+    },
+    "database": {
+        "host": "localhost:3306",
+        "username": "{DB_USERNAME}",
+        "password": "{DB_PASSWORD}",
+        "table": "{DB_TABLE}"
+    },
+    "settings": {
+        "general": {
+            "log_ips": false,
+            "name": "Botnet [Reborn]",
+            "auto_reload": true
+        },
+        "title": {
+            "title_spinner": true,
+            "online_clients": "Online",
+            "running_attacks": "Running",
+            "display_username": {
+                "greeting": "Welcome, ",
+                "enabled": true
+            },
+            "display_expiry": {
+                "prefix": "Plan Expiry: ",
+                "enabled": false
+            },
+            "title_update_sleep": 500,
+            "fake_botnet_title": {
+                "max": 1200,
+                "min": 1000,
+                "prefix": "Bots: ",
+                "suffix": " | Thank you for your trust in our service.",
+                "enabled": false
+            }
+        },
+        "information_rewrites": {
+            "ip_address": "*.*.*.*",
+            "username": "Anonymous",
+            "unknown_sshclient": "Unknown"
+        },
+        "disabled_commands": [],
+        "developer": {
+            "terminal": {
+                "width": 522,
+                "height": 22
+            }
+        }
+    },
+    "webhooks": {
+        "telegram": {
+            "token": "",
+            "chatid": "",
+            "enabled": false
+        },
+        "discord": {
+            "webhook": "",
+            "image": "",
+            "enabled": false
+        }
+    },
+    "attack_settings": {
+        "blacklists": [
+            ".gov",
+            ".edu",
+            "curl",
+            ".ru",
+            "russia",
+            "wget",
+            ">",
+            "github",
+            "<",
+            "mysql",
+            "localhost",
+            "space"
+        ],
+        "attacks": {
+            "enabled": true,
+            "slots": {
+                "max": 10,
+                "enabled": true
+            },
+            "spamcheck": {
+                "general": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                },
+                "target": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                }
+            }
+        }
+    },
+    "presets": [
+        {
+            "name": "MONTHLY",
+            "config": {
+                "maxtime": 300,
+                "concurrents": 1,
+                "vip": false,
+                "expiry": 30
+            }
+        },
+        {
+            "name": "MONTHLY-VIP",
+            "config": {
+                "maxtime": 300,
+                "concurrents": 1,
+                "vip": true,
+                "expiry": 30
+            }
+        },
+        {
+            "name": "LIFETIME",
+            "config": {
+                "maxtime": 600,
+                "concurrents": 1,
+                "vip": false,
+                "expiry": 999
+            }
+        },
+        {
+            "name": "LIFETIME-VIP",
+            "config": {
+                "maxtime": 600,
+                "concurrents": 1,
+                "vip": true,
+                "expiry": 999
+            }
+        }
+    ],
+    "themes": [
+        {
+            "name": "default",
+            "description": "Minimalistic, clean, and simple.",
+            "example": "assets/banners/default/commands/clear-splash.txt",
+            "colour": "[97m"
+        },
+        {
+            "name": "pink",
+            "description": "Default theme with a pink twist added.",
+            "example": "assets/banners/pink/commands/clear-splash.txt",
+            "colour": "[95m"
+        }
+    ],
+    "banners": [
+        {
+            "name": "methods",
+            "description": "View the available methods.",
+            "require_role": {
+                "admin": false,
+                "mod": false,
+                "reseller": false
+            },
+            "path": "assets/banners/{THEME}/commands/methods.txt",
+            "aliases": [
+                "method"
+            ]
+        },
+        {
+            "name": "usage",
+            "description": "View the correct way to attack.",
+            "require_role": {
+                "admin": false,
+                "mod": false,
+                "reseller": false
+            },
+            "path": "assets/banners/{THEME}/commands/usage.txt",
+            "aliases": [
+                "syntax"
+            ]
+        },
+        {
+            "name": "plan",
+            "description": "View your plan information.",
+            "require_role": {
+                "admin": false,
+                "mod": false,
+                "reseller": false
+            },
+            "path": "assets/banners/{THEME}/commands/plan.txt",
+            "aliases": [
+                "acc",
+                "account"
+            ]
+        },
+        {
+            "name": "help",
+            "description": "View the help menu and banner.",
+            "require_role": {
+                "admin": false,
+                "mod": false,
+                "reseller": false
+            },
+            "path": "assets/banners/{THEME}/commands/help.txt",
+            "aliases": [
+                "h",
+                "?"
+            ]
+        },
+        {
+            "name": "rules",
+            "description": "View the rules and tos.",
+            "require_role": {
+                "admin": false,
+                "mod": false,
+                "reseller": false
+            },
+            "path": "assets/banners/{THEME}/commands/rules.txt",
+            "aliases": [
+                "tos"
+            ]
+        }
+    ],
+    "attacks": [
+        {
+            "method": "HOME",
+            "links": [
+                "https://cloudflare.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HTTP-BROWSER",
+                "https://google.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HOME-BROWSERv3"
+            ],
+            "config": {
+                "slots": {
+                    "max": 3,
+                    "enabled": true
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 86400,
+                        "enabled": true
+                    },
+                    "soft": {
+                        "time": 200,
+                        "enabled": false
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": true,
+                    "private": {
+                        "enabled": false,
+                        "users": [
+                            "root",
+                            "mypartner"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "method": "HTTPS",
+            "links": [
+                "https://cloudflare.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HTTP-BROWSER",
+                "https://google.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HOME-BROWSERv3"
+            ],
+            "config": {
+                "slots": {
+                    "max": 3,
+                    "enabled": true
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 86400,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 200,
+                        "enabled": true
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": false,
+                    "private": {
+                        "enabled": true,
+                        "users": [
+                            "kingcobra",
+                            "johnthegoat"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

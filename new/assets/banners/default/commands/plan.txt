@@ -1,0 +1,19 @@
+
+[97mUsername[91m: [97m<<$user.username>>
+[97mMax Attack Time[91m: [97m<<$user.maxtime>>
+[97mConcurrents[91m: [97m<<$user.concurrents>>
+[97mUser Total Attack Count[91m: [97m<<$user.attackcount>>
+[97mUser Ongoing Attack Count[91m: [97m<<$user.ongoing>>
+[97mVIP Status[91m: [97m<<$user.vip>>
+[97mReseller Status[91m: [97m<<$user.reseller>>
+[97mModerator Status[91m: [97m<<$user.mod>>
+[97mAdministrator Status[91m: [97m<<$user.admin>>
+[97mBypass PowerSaving Status[91m: [97m<<$user.bp_powersaving>>
+[97mBypass Blacklist Status[91m: [97m<<$user.bp_blacklist>>
+[97mBypass Soft MaxTime Status[91m: [97m<<$user.bp_softmaxtime>>
+[97mDays Since Plan Creation[91m: [97m<<$user.creation.days>> days
+[97mDays Till Plan Expiry[91m: [97m<<$user.expiry.days>> days
+[97mPlan Expiry Date[91m: [97m <<$user.expiry.formatted>>
+[97mAccount Created By[91m: [97m<<$user.creation.user>>
+[97mAccount Creation Date[91m: [97m<<$user.creation.formatted>>
+

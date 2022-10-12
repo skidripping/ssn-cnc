@@ -1,0 +1,9 @@
+[97mIP[95m: [97m<<$ip.ip>>
+[97mRegion[95m: [97m<<$ip.region>>
+[97mCountry[95m: [97m<<$ip.country>> [95m([97m<<$ip.continent>>[95m)
+[97mCity[95m: [97m<<$ip.city>>
+[97mZip[95m: [97m<<$ip.zip>>
+[97mISP[95m: [97m<<$ip.isp>>
+[97mAS[95m: [97m<<$ip.asn>>
+[97mOrg[95m: [97m<<$ip.org>>
+[97mTimeZone[95m: [97m<<$ip.timezone>>

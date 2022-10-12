@@ -1,0 +1,1 @@
+[97m<<$user.username>>@[95mBotnet[97m: 

@@ -1,0 +1,22 @@
+<<$clear>>
+                           [95m╦ ╦╔═╗╦  ╔═╗  ╔╦╗╔═╗╔╗╔╦ ╦
+                           [95m╠═╣║╣ ║  ╠═╝  ║║║║╣ ║║║║ ║
+                           [95m╩ ╩╚═╝╩═╝╩    ╩ ╩╚═╝╝╚╝╚═╝
+
+                   [95m╔════════════════════════════════════════╗
+                   [95m║[97m rules      [95m->[97m View the tos             [95m║
+                   [95m║[97m methods    [95m->[97m View methods page        [95m║
+                   [95m║[97m echo       [95m->[97m Echo provided text       [95m║
+                   [95m║[97m lookup     [95m->[97m Lookup an ip             [95m║
+                   [95m║[97m plan       [95m->[97m View your plan details   [95m║
+                   [95m║[97m clear      [95m->[97m Clear the terminal       [95m║
+                   [95m║[97m ongoing    [95m->[97m View ongoing attacks     [95m║
+                   [95m║[97m recent     [95m->[97m View your last attacks   [95m║
+                   [95m║[97m passwd     [95m->[97m Change your password     [95m║
+                   [95m║[97m ping       [95m->[97m ICMP ping an ip          [95m║
+                   [95m║[97m paping     [95m->[97m TCP ping an ip           [95m║
+                   [95m║[97m cfx        [95m->[97m Resolve cfx code to ip   [95m║
+                   [95m║[97m themes     [95m->[97m Change the appearence    [95m║
+                   [95m║[97m encrypt    [95m->[97m Encrypt provided text    [95m║
+                   [95m╚════════════════════════════════════════╝[97m
+

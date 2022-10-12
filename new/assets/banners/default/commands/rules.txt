@@ -1,0 +1,5 @@
+
+ [91m┌──
+ [91m│ [97mNo spamming on the same host[91m.
+ [91m└──
+

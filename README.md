@@ -23,4 +23,6 @@ DM him to purchase.
 [pxzdano](pxzdano.t.me) - Cracking\
 [timeout](nightmarexiv.t.me) - New SSN CNC\
 [catto](synfloods.t.me) - Proving the Logging & Main idea to crack the CNC\
-[orbital](orbitalxz.t.me) - Old SSN CNC
+[orbital](orbitalxz.t.me) - Old SSN CNC\
+[seized](seized1337.t.me) - Giving us the License and the Server\
+[space](tcpsyn.t.me) - Being a retard, calling catto a retard, making a shit CNC

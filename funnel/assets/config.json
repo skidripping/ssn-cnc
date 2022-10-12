@@ -1,0 +1,154 @@
+{
+    "webserver": {
+        "host": "YOUR SERVER IP GOES HERE",
+        "debug": true,
+        "enabled": true
+    },
+    "database": {
+        "host": "localhost:3306",
+        "username": "{DB_USERNAME}",
+        "password": "{DB_PASSWORD}",
+        "table": "{DB_TABLE}"
+    },
+    "webhooks": {
+        "telegram": {
+            "attack_sent": {
+                "token": "",
+                "title": "USER ATTACK SENT SUCCESSFULLY",
+                "chat_id": "",
+                "enabled": false
+            },
+            "blacklisted_host": {
+                "token": "",
+                "title": "USER TRIED ATTACKING BLACKLIST",
+                "chat_id": "",
+                "enabled": false
+            }
+        },
+        "discord": {
+            "attack_sent": {
+                "webhook": "",
+                "title": "USER ATTACK SENT SUCCESSFULLY",
+                "image": "https://static.vecteezy.com/system/resources/previews/001/200/261/original/check-png.png",
+                "hex_color": "",
+                "enabled": false
+            },
+            "blacklisted_host": {
+                "webhook": "",
+                "title": "USER TRIED ATTACKING BLACKLIST",
+                "image": "http://www.clipartbest.com/cliparts/RiA/ExB/RiAExBz9T.png",
+                "hex_color": "",
+                "enabled": false
+            }
+        }
+    },
+    "attack_settings": {
+        "blacklists": [
+            ".gov",
+            ".edu",
+            "curl",
+            ".ru",
+            "russia",
+            "wget",
+            "1.1.1.1",
+            ">",
+            "<",
+            "echo",
+            "insert",
+            "mysql",
+            "localhost"
+        ],
+        "attacks": {
+            "enabled": true,
+            "slots": {
+                "max": 10,
+                "enabled": true
+            },
+            "powersaving": {
+                "enabled": true
+            },
+            "spamcheck": {
+                "general": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                },
+                "target": {
+                    "amount": 3,
+                    "per_seconds": 300,
+                    "enabled": false
+                }
+            }
+        }
+    },
+    "attacks": [
+        {
+            "name": "HOME",
+            "links": [
+                "https://cloudflare.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=SSDP",
+                "https://google.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HOME-NTP"
+            ],
+            "config": {
+                "slots": {
+                    "max": 2,
+                    "enabled": false
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 60,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 30,
+                        "enabled": false
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": false,
+                    "private": {
+                        "enabled": false,
+                        "users": [
+                            "root",
+                            "mypartner"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "HTTPS",
+            "links": [
+                "https://cloudflare.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=HTTPS",
+                "https://google.com/api/attack?username=&secret=&host={HOST}&port={PORT}&time={TIME}&method=BROWSERv2"
+            ],
+            "config": {
+                "slots": {
+                    "max": 2,
+                    "enabled": false
+                },
+                "maxtime": {
+                    "hard": {
+                        "time": 60,
+                        "enabled": false
+                    },
+                    "soft": {
+                        "time": 30,
+                        "enabled": false
+                    }
+                },
+                "status": {
+                    "enabled": true,
+                    "vip": false,
+                    "private": {
+                        "enabled": true,
+                        "users": [
+                            "kingcobra",
+                            "johnthegoat"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

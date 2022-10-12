@@ -1,0 +1,15 @@
+
+                             ╔════════════════════╗
+                             ║ help               ║
+                             ║ logs               ║
+                             ║ clear logs         ║
+                             ║ users add          ║
+                             ║ users remove       ║
+                             ║ users edit         ║
+                             ║ users list         ║
+                             ║ clear              ║
+                             ║ ongoing            ║
+                             ║ exit               ║
+                             ║ users view plan    ║
+                             ║ users view logs    ║
+                             ╚════════════════════╝
